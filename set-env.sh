@@ -9,7 +9,8 @@ then
     source /pio/os/anaconda/set-env.sh
 fi
 
-export FUEL_DATA_PATH=/pio/data/data/fuel/
+export FUEL_DATA_PATH=$NN/datasets/
+#export FUEL_DATA_PATH=/pio/data/data/fuel/
 
 export BLOCKS_CONFIG=$NN/config/blocks.yaml
 export THEANORC=$NN/config/theano.rc:$HOME/.theanorc
